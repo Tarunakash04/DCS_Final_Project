@@ -1,7 +1,7 @@
 % Non-coherent detection of Frequency Shift Keying (FSK)
 
 % Parameters
-EbN0_dB = 0:1:10; % Eb/N0 range in dB
+EbN0_dB = 0:1:10; % Eb/N0 range in dB.
 EbN0_lin = 10.^(EbN0_dB/10); % Eb/N0 range in linear scale
 M = 2; % Number of symbols in FSK (binary FSK)
 
